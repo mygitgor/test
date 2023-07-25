@@ -1,4 +1,4 @@
-package test_01;
+package test1;
 
 public class Test1 {
     private int age1;
