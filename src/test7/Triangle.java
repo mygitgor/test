@@ -47,7 +47,7 @@ public class Triangle {
     }
 
     private Point getVertexC(){
-        double angle = Math.acos((sideA * sideA + sideC*sideC - sideB*sideB)/(2.0*sideA*sideC) );
+        double angle = Math.acos((sideA * sideA + sideC * sideC - sideB * sideB)/(2.0 * sideA * sideC) );
         double x = sideA * Math.cos(angle);
         double y = sideA * Math.sin(angle);
         return new Point(x,y);
